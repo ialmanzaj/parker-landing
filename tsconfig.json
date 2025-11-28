@@ -29,8 +29,7 @@
       ]
     },
     "types": [
-      "node",
-      "jest"
+      "node"
     ],
     "allowJs": true,
     "incremental": true,
@@ -48,6 +47,7 @@
     ".next/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "playwright.config.ts"
   ]
 }
